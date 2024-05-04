@@ -19,7 +19,7 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: ${{ secrets.DOCKER_USERNAME }}/gitops
-          tags: ${{ GITHUB_SHA }}, latest
+          tags: $GITHUB_SHA, latest
 
       - name: Setup Kustomize
         uses: imranismail/setup-kustomize@v1
