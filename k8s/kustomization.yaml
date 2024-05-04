@@ -6,4 +6,4 @@ resources:
 images:
 - name: goserver
   newName: williamrldb/gitops
-  newTag: 6726106dec81d7ad2e2bf05627d4bed46fe05ea8
+  newTag: d1f67a09f5750a6fc65f8cbf8030a11559fa2eab
