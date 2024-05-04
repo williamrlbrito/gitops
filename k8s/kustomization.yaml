@@ -1,9 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - service.yaml
-  - deployment.yaml
+- service.yaml
+- deployment.yaml
 images:
-  - name: goserver
-    newName: goserver
-    newTag: 1.0.0
+- name: goserver
+  newName: williamrldb/gitops
+  newTag: 6726106dec81d7ad2e2bf05627d4bed46fe05ea8
